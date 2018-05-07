@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+}
+#root{
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 42px;
+  
+}
+#footer {
+  position:absolute;
+  bottom: 0;
+  width: 100%
+}
+div.ui.pagination.menu {
+  position:absolute;
+  bottom: 41px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#addButtons {
+  position:fixed;
+  bottom: 60px;
+  right: 60px;
+  z-index: 1002;
+}
+#imageButton, #postButton, #videoButton {
+  display: block;
+  margin: 10px 0
+}
+.item.thingy {
+  -moz-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.5);
+}
+#login-page {
+  background-image: url(https://www.scalevp.com/sites/default/files/designbig.jpg);
+  background-size: cover;
+  min-height: 90vh;
+}
